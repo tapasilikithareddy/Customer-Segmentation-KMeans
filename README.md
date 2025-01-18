@@ -6,11 +6,11 @@ Customer segmentation is a critical process for businesses to understand their c
 
 In this project, the goal is to segment customers visiting a mall into groups based on factors such as annual income, age, and spending score. The K-Means algorithm is applied to identify patterns and group customers accordingly. These insights can help businesses tailor their marketing strategies, products, and services to specific customer segments.
 
-### K-Means Clustering
+## K-Means Clustering
 
 K-Means is an iterative clustering algorithm that tries to partition the dataset into **K** pre-defined clusters. It works by finding the centroid of each cluster and assigning data points to the nearest centroid. The algorithm minimizes the **intra-cluster distance** (distance between points within a cluster) and maximizes the **inter-cluster distance** (distance between centroids of clusters).
 
-### Steps in the Project
+## Steps in the Project
 
 1. **Data Exploration**:
    - Import necessary libraries (Pandas, Matplotlib, etc.).
@@ -28,7 +28,7 @@ K-Means is an iterative clustering algorithm that tries to partition the dataset
    - Visualize the customer segments using scatter plots and other graphical tools.
    - Analyze the customer segments to gain actionable insights into spending behavior and demographics.
 
-### Code Example
+## Code Example
 
 ```python
 import pandas as pd
@@ -102,7 +102,7 @@ bash
 pip install pandas numpy matplotlib seaborn sklearn
 ```
 
-### Running the Jupyter Notebook
+## Running the Jupyter Notebook
 Once the dependencies are installed, you can run the project in a Jupyter Notebook. If you don't have Jupyter installed, you can install it using:
 
 bash
@@ -121,10 +121,10 @@ This will open the Jupyter interface in your web browser, where you can open and
 ## Results & Insights
 By applying K-Means clustering, we segmented the customers into 4 clusters based on their annual income, age, and spending habits. Here are the insights:
 
--Cluster 1: High-income, high-spending customers
--Cluster 2: Low-income, low-spending customers
--Cluster 3: Middle-income, average-spending customers
--Cluster 4: High-spending, lower-income customers
+-**Cluster 1**: High-income, high-spending customers
+-**Cluster 2**: Low-income, low-spending customers
+-**Cluster 3**: Middle-income, average-spending customers
+-**Cluster 4**: High-spending, lower-income customers
 These segments allow businesses to target customers with tailored marketing strategies and improve customer experience.
 
 ## Future Improvements
