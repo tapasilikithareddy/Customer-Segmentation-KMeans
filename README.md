@@ -55,6 +55,7 @@ plt.title('Elbow Method')
 plt.xlabel('Number of Clusters')
 plt.ylabel('WCSS')
 plt.show()
+```
 
 ### Dataset
 The dataset used in this project contains information about customer demographics and their spending habits. It includes the following features:
@@ -73,18 +74,20 @@ Clone this repository to your local machine using:
 
 ```bash
 git clone https://github.com/your-username/customer-segmentation-using-k-means.git
-
-Create a Virtual Environment
+```
+## Create a Virtual Environment
 To ensure all dependencies are installed properly, create a virtual environment and activate it:
 
-Using pip
+### Using pip
 bash
 ```
 pip install -r requirements.txt
+```
+
 Using Conda (Optional)
 If you prefer using Conda, refer to the Conda Environment Management documentation.
 
-Dependencies
+### Dependencies
 The following Python libraries are required for this project:
 
 - pandas: For data manipulation
@@ -97,20 +100,25 @@ The following Python libraries are required for this project:
 bash
 ```
 pip install pandas numpy matplotlib seaborn sklearn
-Running the Jupyter Notebook
+```
+
+### Running the Jupyter Notebook
 Once the dependencies are installed, you can run the project in a Jupyter Notebook. If you don't have Jupyter installed, you can install it using:
 
 bash
 ```
 pip install jupyter
+```
 To start the notebook, run:
 
 bash
 ```
 jupyter notebook
+```
+
 This will open the Jupyter interface in your web browser, where you can open and run the customer_segmentation.ipynb notebook.
 
-Results & Insights
+### Results & Insights
 By applying K-Means clustering, we segmented the customers into 4 clusters based on their annual income, age, and spending habits. Here are the insights:
 
 -Cluster 1: High-income, high-spending customers
@@ -119,7 +127,7 @@ By applying K-Means clustering, we segmented the customers into 4 clusters based
 -Cluster 4: High-spending, lower-income customers
 These segments allow businesses to target customers with tailored marketing strategies and improve customer experience.
 
-##Future Improvements
+### Future Improvements
 Adding More Features: You can improve the model by adding additional features like customer location, purchase history, etc.
 Advanced Clustering Algorithms: Explore algorithms like DBSCAN or Agglomerative Clustering.
 Prediction Models: Implement supervised learning models to predict customer behavior based on the segments.
