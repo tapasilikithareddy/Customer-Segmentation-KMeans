@@ -56,7 +56,7 @@ plt.xlabel('Number of Clusters')
 plt.ylabel('WCSS')
 plt.show()
 
-## Dataset
+### Dataset
 The dataset used in this project contains information about customer demographics and their spending habits. It includes the following features:
 - **CustomerID**: Unique identifier for each customer
 - **Gender**: Customer's gender (not used in clustering)
@@ -79,8 +79,7 @@ To ensure all dependencies are installed properly, create a virtual environment 
 
 Using pip
 bash
-Copy
-Edit
+```
 pip install -r requirements.txt
 Using Conda (Optional)
 If you prefer using Conda, refer to the Conda Environment Management documentation.
@@ -88,42 +87,39 @@ If you prefer using Conda, refer to the Conda Environment Management documentati
 Dependencies
 The following Python libraries are required for this project:
 
-pandas: For data manipulation
-numpy: For numerical operations
-matplotlib: For data visualization
-seaborn: For statistical data visualization
-sklearn: For machine learning algorithms
-To install the required libraries, run:
+- pandas: For data manipulation
+- numpy: For numerical operations
+- matplotlib: For data visualization
+- seaborn: For statistical data visualization
+- sklearn: For machine learning algorithms
+- To install the required libraries, run:
 
 bash
-Copy
-Edit
+```
 pip install pandas numpy matplotlib seaborn sklearn
 Running the Jupyter Notebook
 Once the dependencies are installed, you can run the project in a Jupyter Notebook. If you don't have Jupyter installed, you can install it using:
 
 bash
-Copy
-Edit
+```
 pip install jupyter
 To start the notebook, run:
 
 bash
-Copy
-Edit
+```
 jupyter notebook
 This will open the Jupyter interface in your web browser, where you can open and run the customer_segmentation.ipynb notebook.
 
 Results & Insights
 By applying K-Means clustering, we segmented the customers into 4 clusters based on their annual income, age, and spending habits. Here are the insights:
 
-Cluster 1: High-income, high-spending customers
-Cluster 2: Low-income, low-spending customers
-Cluster 3: Middle-income, average-spending customers
-Cluster 4: High-spending, lower-income customers
+-Cluster 1: High-income, high-spending customers
+-Cluster 2: Low-income, low-spending customers
+-Cluster 3: Middle-income, average-spending customers
+-Cluster 4: High-spending, lower-income customers
 These segments allow businesses to target customers with tailored marketing strategies and improve customer experience.
 
-Future Improvements
+##Future Improvements
 Adding More Features: You can improve the model by adding additional features like customer location, purchase history, etc.
 Advanced Clustering Algorithms: Explore algorithms like DBSCAN or Agglomerative Clustering.
 Prediction Models: Implement supervised learning models to predict customer behavior based on the segments.
